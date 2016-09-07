@@ -12,6 +12,5 @@ while(!rs.eof)
    document.write(rs.fields(1));
    rs.movenext;
 }
-
 rs.close;
-connection.close;
+connection.close
